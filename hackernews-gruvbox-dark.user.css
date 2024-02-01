@@ -131,6 +131,25 @@
 }
 	
 	
+	
+	/* Default mode (white) */
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+	
+	
+	
+	
+/* Dark mode (black) */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000;
+        color: #fff;
+    }
+	
+	
 	/*TOP BAR  */
 	
 	td{
@@ -145,11 +164,12 @@
 	
 /*MAin are where the text is right now  	 */
 textarea {
-	color : #913030 !important ; 
-	background-color:  black !important ; 
-	border: 1px solid #98971a; 
+	color : #ebdbb2 !important ; 
+	font-family:  "chivo" , "Google sans" !important ; 
+	background-color:  #2c573d !important ; 
+	border: 1px solid #d5c4a1; 
 	border-radius: 8px !important ; 
-    font-family: monospace;
+  
     font-size: 10pt;
     resize: both;
 }
@@ -193,6 +213,88 @@ textarea {
 	a:visited{ 
 	color : #928374 !important ; 
 	}
+	
+	
+	span.subline{
+		color : #427b58 !important ; 
+	}
+
+/* 	awrrows at the side  */
+div.votearrow  , div.upvote{
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    margin: 3px 2px 6px;
+	background-color: #1d2021 !important ; 
+
+	
+	
+	
+}
+/*Ranks of posts on the side 	 */
+	span.rank{
+		color: #fe8019 !important ; 
+	}
+	
+	
+	
+/*  ADD COMMENTS 	  */
+	
+input[type="text"] {
+	font-family: "google sans" , sans-serif !important ;
+	
+  background-color: #2c573d!important ; /* Change the background color */
+  border: 1px solid #8ec07c!important; /* Change the border color */
+	color: #ebdbb2  !important ; 
+	border-radius: 6px !important ; 
+}
+	
+	
+	
+	
+	
+/* ADD COMMENT BUTTON 	 */
+	
+	input {
+		background-color: #79740e !important ;
+		color : #ebdbb2 !important ; 
+		
+			font-family:"Chivo" ,  "google sans" , sans-serif!important ;
+border-radius: 8px!important ; 
+    
+    font-size: 10pt;
+}
+	
+	
+
+/*COMMENT AREA  	 */
+	
+/*Comment color  	 */
+	p {
+		color : #ebdbb2 !important ;
+	}
+	
+/*Comment Reference  	 */
+	span.commtext.c00{
+		color: #98971a !important 
+	}
+	
+	
+	
+	
+/* Code Block 	 */
+	pre { 
+	
+		color: #8ec07c !important ; 
+	background-color : #16181a !important ; 
+		border-radius: 12px !important ; 
+	}
+	
+	
+}
+	
+	
+	
 	
 	
 }
