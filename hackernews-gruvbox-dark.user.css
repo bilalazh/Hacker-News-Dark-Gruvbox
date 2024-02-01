@@ -131,19 +131,19 @@
 }
 	
 	
-	/*TOP BAR */
+	/*TOP BAR  */
 	
 	td{
 		background-color : #282828  !important ; 
 	}
 	
-	
+/*Back groudn for the whole app      */
 	body {
 		background-color : #1a1b1d !important ; 
 	}
 	
 	
-	
+/*MAin are where the text is right now  	 */
 textarea {
 	color : black !important ; 
 	background-color:  black !important ; 
@@ -154,6 +154,28 @@ textarea {
     resize: both;
 }
 	
+	
+/* LINKS the title at the title page */
+	a:link {
+    color: #fb4934;
+    text-decoration: none;
+}
+	
+/* Websites  links on the websites 	 */
+	.comhead a:link, .subtext a:visited {
+    color: #b8bb26 !important;
+}
+	
+	
+	
+/*The text under the titles in the title page 	 */
+	.comhead , a:visited {
+    color: #fe8019!important;
+}
+	
+	span.score{
+		color: white !important ; 
+	}
 	
 	
 	
