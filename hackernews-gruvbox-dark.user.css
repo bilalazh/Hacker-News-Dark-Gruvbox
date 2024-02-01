@@ -134,7 +134,7 @@
 	/*TOP BAR  */
 	
 	td{
-		background-color : #282828  !important ; 
+		background-color : #1a1b1d  !important ; 
 	}
 	
 /*Back groudn for the whole app      */
@@ -145,9 +145,9 @@
 	
 /*MAin are where the text is right now  	 */
 textarea {
-	color : black !important ; 
+	color : #913030 !important ; 
 	background-color:  black !important ; 
-	border: 1px solid #b8bb26; 
+	border: 1px solid #98971a; 
 	border-radius: 8px !important ; 
     font-family: monospace;
     font-size: 10pt;
@@ -161,9 +161,11 @@ textarea {
     text-decoration: none;
 }
 	
+	
+
 /* Websites  links on the websites 	 */
 	.comhead a:link, .subtext a:visited {
-    color: #b8bb26 !important;
+    color: #fb4934 !important;
 }
 	
 	
@@ -172,13 +174,25 @@ textarea {
 	.comhead , a:visited {
     color: #fe8019!important;
 }
-	
+/* The points os post 	 */
 	span.score{
-		color: white !important ; 
+		color: #f57d26 !important ; 
+	}
+	
+/*Name of poster   */
+	a.hnuser{
+		color: #b16286 !important ; 
 	}
 	
 	
+	a { 
+	color : #98971a !important ; 
+	}
 	
+/*Titles after you visit them  	 */
+	a:visited{ 
+	color : #928374 !important ; 
+	}
 	
 	
 }
