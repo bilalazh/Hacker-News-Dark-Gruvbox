@@ -130,24 +130,26 @@
    
 }
 	
-	
-	
-	/* Default mode (white) */
-body {
-    background-color: #fff;
-    color: #000;
-}
 
-	
-	
-	
-	
+
+
+
+/* DARK MODE BLACK  */
 /* Dark mode (black) */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #000;
-        color: #fff;
-    }
+
+   
+	
+	
+	
+	
+/* TOP BAR UGLY WHITE BAR 	 */
+	#hnmain {
+    min-width: 796px;
+		background-color: #1a1b1d !important ; 
+}
+	
+	
+	
 	
 	
 	/*TOP BAR  */
@@ -159,6 +161,7 @@ body {
 /*Back groudn for the whole app      */
 	body {
 		background-color : #1a1b1d !important ; 
+		color: #98971a !important ; 
 	}
 	
 	
@@ -297,4 +300,4 @@ border-radius: 8px!important ;
 	
 	
 	
-}
+	
