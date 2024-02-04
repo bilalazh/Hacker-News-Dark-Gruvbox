@@ -1,3 +1,4 @@
+
 /* ==UserStyle==
 @name           news.ycombinator.com - Jan 2024
 @namespace      github.com/openstyles/stylus
@@ -169,7 +170,7 @@
 textarea {
 	color : #ebdbb2 !important ; 
 	font-family:  "chivo" , "Google sans" !important ; 
-	background-color:  #2c573d !important ; 
+	background-color:  #282828 !important ; 
 	border: 1px solid #d5c4a1; 
 	border-radius: 8px !important ; 
   
@@ -180,7 +181,7 @@ textarea {
 	
 /* LINKS the title at the title page */
 	a:link {
-    color: #fb4934;
+    color: #ebdbb2;
     text-decoration: none;
 }
 	
@@ -195,22 +196,36 @@ textarea {
 	
 /*The text under the titles in the title page 	 */
 	.comhead , a:visited {
-    color: #fe8019!important;
+    color: #83a598!important;
 }
 /* The points os post 	 */
 	span.score{
-		color: #f57d26 !important ; 
+		color: #79740e !important ; 
 	}
 	
 /*Name of poster   */
 	a.hnuser{
-		color: #b16286 !important ; 
+		color: #427b58 !important ; 
 	}
 	
 	
-	a { 
-	color : #98971a !important ; 
-	}
+	
+	
+	
+	
+	
+	
+	
+	
+/* TITLE of apges adn other elemtns 	 */
+/* 	a { 
+	color : #ebdbb2 !important ; 
+	} */
+	
+/* 	span.unv_39246950{
+		color:#8f3030 !important ; 
+	} */
+	
 	
 /*Titles after you visit them  	 */
 	a:visited{ 
@@ -246,10 +261,10 @@ div.votearrow  , div.upvote{
 input[type="text"] {
 	font-family: "google sans" , sans-serif !important ;
 	
-  background-color: #2c573d!important ; /* Change the background color */
+  background-color: #282828!important; /* Change the background color */
   border: 1px solid #8ec07c!important; /* Change the border color */
-	color: #ebdbb2  !important ; 
-	border-radius: 6px !important ; 
+	color: #d5c4a1  !important; 
+	border-radius: 6px !important; 
 }
 	
 	
@@ -259,7 +274,7 @@ input[type="text"] {
 /* ADD COMMENT BUTTON 	 */
 	
 	input {
-		background-color: #79740e !important ;
+		background-color: #2c573d !important ;
 		color : #ebdbb2 !important ; 
 		
 			font-family:"Chivo" ,  "google sans" , sans-serif!important ;
@@ -300,4 +315,4 @@ border-radius: 8px!important ;
 	
 	
 	
-	
+
