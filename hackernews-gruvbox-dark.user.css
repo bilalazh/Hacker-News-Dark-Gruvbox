@@ -1,11 +1,20 @@
 
 /* ==UserStyle==
-@name           news.ycombinator.com - Jan 2024
+@name           news.ycombinator.com - Feb 2024
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    A new userstyle
-@author         Me
+@description    This user style will apply the google chivo font to everything page you visit 
+                I have made some changes in it 
+                this will not change the following 
+                    - monospace font
+                    - icons --> this theme is set up to ignore icons and dont mess up icons on most websites 
+@author         heybilalazhar@gmail.com
 ==/UserStyle== */
+
+
+
+
+
 
 @-moz-document domain("news.ycombinator.com") {
     
@@ -131,31 +140,12 @@
    
 }
 	
-
-
-	
-	a:link {
-  color: #ebdbb2 ;
-}
-	
-	a:hover{
-		color : #98971a !important ; 
-	} 
 	
 	
-a:visited {
-  color: #fe8019 !important;
-}
-
-
-
+	
+	
 	
 
-/* DARK MODE BLACK  */
-/* Dark mode (black) */
-
-
-	
 	/* TOP BAR UGLY WHITE BAR 	 */
 	#hnmain {
     min-width: 796px;
@@ -164,25 +154,63 @@ a:visited {
 }
 
 	
+	.comhead a:link, .subtext a:visited {
+    color: #98971a;
+}
+	
+	a{
+  
+    font-size: 10pt;
+        
+    color: #d5c4a1 !important;
+       
+
+}
+a:visited{
+    color : #7c6f64 !important ;
+}
+
+.subtext a:link, .subtext a:visited {
+    color: #504945 !important;
+}
+
+
+.subtext {
+    
+    font-size: 7pt;
+    color: #504945 !important;
+}
+
+.comhead a:link, .subtext a:visited {
+    color: #98971a !important;
+}
+
+.comhead  a:hover{
+    color: #fe8019 !important;
+}
+
+.comhead  a:visited{
+    color: #665c54 !important;
+}
 	
 	
 	
 	
 	/*TOP BAR  */
 	
-	td{
+/* 	td{
 		background-color : #1a1b1d  !important ; 
-	}
+	} */
 	
 /*Back groudn for the whole app      */
-	body {
+/* 	body {
 		background-color : #17191b !important ; 
 		
-	}
+	} */
 	
 	
 /*MAin are where the text is right now  	 */
-textarea {
+/* textarea {
 	color : #ebdbb2 !important ; 
 	font-family:  "chivo" , "Google sans" !important ; 
 	background-color:  #282828 !important ; 
@@ -191,7 +219,7 @@ textarea {
   
     font-size: 10pt;
     resize: both;
-}
+} */
 	
 	
 /* LINKS the title at the title page */
@@ -221,16 +249,16 @@ textarea {
 	
 
 /* The points of post 	 */
-	span.score{
+/* 	span.score{
 		color: #504945 !important ; 
 	}
-	
+	 */
 
 /*Hide the orange logo on the Top  	 */
 	
-	img{
+/* 	img{
 		opacity: 0 !important ; 
-	}
+	} */
 	
 	
 
@@ -243,9 +271,9 @@ textarea {
 	color : #98971a !important ; 
 	} */
 	
-	.comhead a:link .subtext ,  a:visited {
+/* 	.comhead a:link .subtext ,  a:visited {
     color: #665c54 !important;
-}
+} */
 	
 /*Visted links -> Hacker news  	 */
 /* 	a:visited{ 
@@ -261,25 +289,29 @@ textarea {
 }
 
 /*Hover for the  	 */
-		.subline a[href*="hide"]:hover{
-    /* Styles for the "hide" link */
-    color: #b8bb26; /* Example: Make the "hide" link red */
+/* 		.subline a[href*="hide"]:hover{
+  
+    color: #b8bb26; 
 }
-	
+	 */
 	
 	
 	
 	
 /* Main style	 */
 /* line under title fade 	 */
-	.subtext a:link , .subtext{
+/* 	.subtext a:link , .subtext{
     color: #665c54;
-}
+} */
+	
+	
+	
+	
 /* 	Hover works now  */
-		.subtext ,.a:link,.subtext :hover{
+/* 		.subtext ,.a:link,.subtext :hover{
     color: #b8bb26 !important;
 }
-	
+	 */
 	
 	
 		
@@ -307,50 +339,50 @@ textarea {
 	
 	
 /*By Front page title  	 */
-	span.subline{
+/* 	span.subline{
 		color : #665c54 !important ; 
-	}
+	} */
 
 /* 	awrrows at the side  */
-div.votearrow  , div.upvote{
+/* div.votearrow  , div.upvote{
     width: 10px;
     height: 10px;
     border: 0px;
     margin: 3px 2px 6px;
 	background-color: #1d2021 !important ; 
-}
+} */
 	
 /*Ranks of posts on the side 	 */
-	span.rank{
+/* 	span.rank{
 		color: #98971a !important ; 
-	}
+	} */
 	
 	
 	
 	
 /*  ADD COMMENTS 	  */
 	
-input[type="text"] {
+/* input[type="text"] {
 	font-family: "google sans" , sans-serif !important ;
 	
-  background-color: #282828!important; /* Change the background color */
-  border: 1px solid #8ec07c!important; /* Change the border color */
+  background-color: #282828!important; 
+  border: 1px solid #8ec07c!important; 
 	color: #d5c4a1  !important; 
 	border-radius: 6px !important; 
 }
-	
+	 */
 	
 /* One Font color that was wrong 	 */
-	font{
+/* 	font{
     color: #7c6f64 !important;
 }
 	
-	
+	 */
 	
 	
 /* ADD COMMENT BUTTON 	 */
 	
-	input {
+/* 	input {
 		background-color: #689d6a !important ;
 		color : #ebdbb2 !important ; 
 		
@@ -359,32 +391,32 @@ border-radius: 8px!important ;
     
     font-size: 10pt;
 }
-	
+	 */
 	
 
 /*COMMENT AREA  	 */
 	
 /*Comment color  	 */
-	p {
+/* 	p {
 		color : #ebdbb2 !important ;
 	}
-	
+	 */
 /*Comment Reference  	 */
-	span.commtext.c00{
+/* 	span.commtext.c00{
 		color: #98971a !important 
-	}
+	} */
 	
 	
 	
 	
 /* Code Block 	 */
-	pre { 
+/* 	pre { 
 	
 		color: #8ec07c !important ; 
 	background-color : #16181a !important ; 
 		border-radius: 12px !important ; 
 	}
-	
+	 */
 
 	
 
@@ -396,4 +428,5 @@ border-radius: 8px!important ;
 	
 	
 	
+
 
