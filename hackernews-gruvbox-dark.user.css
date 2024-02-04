@@ -291,6 +291,8 @@ border-radius: 18px!important ;
 		font-size: 0.8rem !important ; 
 }
 	
+	
+/* Main text	 */
 	p {
 		color : #ebdbb2 !important ;
 	}
@@ -322,8 +324,11 @@ border-radius: 18px!important ;
 	
 	
 	
-	
-	
+/*Number of posts  	  */
+	/*Ranks of posts on the side 	 */
+	span.rank{
+		color: #79740e !important ; 
+	}
 	
 	
 	
@@ -473,10 +478,7 @@ border-radius: 18px!important ;
 	background-color: #1d2021 !important ; 
 } */
 	
-/*Ranks of posts on the side 	 */
-/* 	span.rank{
-		color: #98971a !important ; 
-	} */
+
 	
 	
 	
