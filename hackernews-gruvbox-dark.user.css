@@ -180,6 +180,7 @@ textarea {
 	
 	
 /* LINKS the title at the title page */
+/* Top bar 	 */
 	a:link {
     color: #ebdbb2;
     text-decoration: none;
@@ -196,20 +197,19 @@ textarea {
 	
 /*The text under the titles in the title page 	 */
 	.comhead , a:visited {
-    color: #83a598!important;
+    color: #b8bb26!important;
 }
-/* The points os post 	 */
+/* The points of post 	 */
 	span.score{
-		color: #79740e !important ; 
+		color: #504945 !important ; 
 	}
 	
-/*Name of poster   */
-	a.hnuser{
-		color: #427b58 !important ; 
+
+/*Hide the orange logo on the Top  	 */
+	
+	img{
+		opacity: 0 !important ; 
 	}
-	
-	
-	
 	
 	
 	
@@ -227,14 +227,82 @@ textarea {
 	} */
 	
 	
-/*Titles after you visit them  	 */
+/*Visted links -> Hacker news  	 */
 	a:visited{ 
 	color : #928374 !important ; 
 	}
 	
+
 	
+/* 	Hide button  */
+	.subline a[href*="hide"] {
+    /* Styles for the "hide" link */
+    color: #665c54; /* Example: Make the "hide" link red */
+}
+
+/*Hover for the  	 */
+		.subline a[href*="hide"]:hover{
+    /* Styles for the "hide" link */
+    color: #b8bb26; /* Example: Make the "hide" link red */
+}
+	
+	
+	
+	
+	
+/* Main style	 */
+/* line under title fade 	 */
+	.subtext a:link, .subtext{
+    color: #7c6f64;
+}
+		.subtext a:link,.subtext::hover{
+    color: #b9541a !important;
+}
+	
+	
+	
+		
+/*Name of the person who posted  	 */
+/* Hover style only -> see other style for cover  */
+	a.hnuser:hover{
+		color: #98971a !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+/* 	Hover for the tiem of post  */
+.age a:hover{
+  color: #79740e !important;
+  font-weight: 500 !important;
+  text-decoration: underline;
+}
+
+
+	
+	
+	
+/*By Front page title  	 */
 	span.subline{
-		color : #427b58 !important ; 
+		color : #504945 !important ; 
 	}
 
 /* 	awrrows at the side  */
@@ -251,7 +319,7 @@ div.votearrow  , div.upvote{
 }
 /*Ranks of posts on the side 	 */
 	span.rank{
-		color: #fe8019 !important ; 
+		color: #98971a !important ; 
 	}
 	
 	
