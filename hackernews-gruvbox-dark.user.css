@@ -273,6 +273,76 @@ border-radius: 18px!important ;
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+/*COMMENT AREA  	 */
+/*Second page  comment area  	 */
+/*Comment color  	 */
+	
+
+		.comment a:link, .comment a:visited{
+    color:#689d6a !important ; 
+		font-size: 0.8rem !important ; 
+}
+	
+	p {
+		color : #ebdbb2 !important ;
+	}
+	
+	
+	
+/*Comment Reference  	 */
+	span.commtext.c00{
+		color: #98971a !important 
+	}
+	
+	
+	
+	
+/* Code Block 	 */
+	pre { 
+	
+		color: #8ec07c !important ; 
+	background-color : #16181a !important ; 
+		border-radius: 12px !important ; 
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 /* LINKS the title at the title page */
 /* Top bar 	 */
 /* 	a:link {
@@ -428,32 +498,6 @@ border-radius: 18px!important ;
 	
 
 	
-
-/*COMMENT AREA  	 */
-	
-/*Comment color  	 */
-/* 	p {
-		color : #ebdbb2 !important ;
-	}
-	 */
-	
-	
-/*Comment Reference  	 */
-/* 	span.commtext.c00{
-		color: #98971a !important 
-	} */
-	
-	
-	
-	
-/* Code Block 	 */
-/* 	pre { 
-	
-		color: #8ec07c !important ; 
-	background-color : #16181a !important ; 
-		border-radius: 12px !important ; 
-	}
-	 */
 
 	
 
