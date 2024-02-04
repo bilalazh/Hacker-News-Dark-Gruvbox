@@ -1,4 +1,5 @@
 
+
 /* ==UserStyle==
 @name           news.ycombinator.com - Jan 2024
 @namespace      github.com/openstyles/stylus
@@ -134,6 +135,22 @@
 
 
 
+	/*Tittl i need for later  	 */
+	
+	
+	.sitestr{
+		color : #cc241d !important ; 
+		
+	}
+	
+
+	.sitestr:visited{
+		color : white  !important ; 
+		
+	} 
+
+
+	
 
 /* DARK MODE BLACK  */
 /* Dark mode (black) */
@@ -188,15 +205,20 @@ textarea {
 
 	
 	
+
+	
+	
+
 	
 	
 	
 	
 	
-/*The text under the titles in the title page 	 */
-	.comhead , a:visited {
-    color: #b8bb26!important;
-}
+	
+	
+	
+	
+
 /* The points of post 	 */
 	span.score{
 		color: #504945 !important ; 
@@ -210,7 +232,7 @@ textarea {
 	}
 	
 	
-	
+
 	
 	
 	
@@ -220,14 +242,11 @@ textarea {
 	color : #ebdbb2 !important ; 
 	} */
 	
-/* 	span.unv_39246950{
-		color:#8f3030 !important ; 
-	} */
 	
 	
 /*Visted links -> Hacker news  	 */
 	a:visited{ 
-	color : #928374 !important ; 
+	color : #665c54 !important ; 
 	}
 	
 
@@ -250,8 +269,8 @@ textarea {
 	
 /* Main style	 */
 /* line under title fade 	 */
-	.subtext a:link, .subtext{
-    color: #7c6f64;
+	.subtext a:link , .subtext{
+    color: #665c54;
 }
 /* 	Hover works now  */
 		.subtext ,.a:link,.subtext :hover{
@@ -261,33 +280,13 @@ textarea {
 	
 	
 		
-/*Name of the person who posted  	 */
-/* Hover style only -> see other style for cover  */
-	a.hnuser:hover{
-		color: #98971a !important ; 
-	}
-	
-	
-	
-		/*Side  links   near the post titles*/
-	span.sitestr{
-		color: #fb4934 !important ;
-	}
-	
-	
-	span.sitestr:hover{
-		color: #98971a !important;
-	}
-	
-	span.sitestr:focus{
-		color: #504945 !important;
 
-	}
 	
 	
 	
 	
 	
+
 	
 	
 	
@@ -299,12 +298,6 @@ textarea {
 	
 
 
-/* 	Hover for the tiem of post  */
-.age a:hover{
-  color: #79740e !important;
-  font-weight: 500 !important;
-  text-decoration: underline;
-}
 
 
 	
@@ -312,7 +305,7 @@ textarea {
 	
 /*By Front page title  	 */
 	span.subline{
-		color : #504945 !important ; 
+		color : #665c54 !important ; 
 	}
 
 /* 	awrrows at the side  */
@@ -322,15 +315,13 @@ div.votearrow  , div.upvote{
     border: 0px;
     margin: 3px 2px 6px;
 	background-color: #1d2021 !important ; 
-
-	
-	
-	
 }
+	
 /*Ranks of posts on the side 	 */
 	span.rank{
 		color: #98971a !important ; 
 	}
+	
 	
 	
 	
@@ -390,6 +381,11 @@ border-radius: 8px!important ;
 	background-color : #16181a !important ; 
 		border-radius: 12px !important ; 
 	}
+	
+
+	
+
+
 	
 
 	
