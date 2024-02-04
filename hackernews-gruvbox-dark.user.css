@@ -146,6 +146,7 @@
 	
 	
 
+		
 	/* TOP BAR UGLY WHITE BAR 	 */
 	#hnmain {
     min-width: 796px;
@@ -158,59 +159,91 @@
     color: #98971a;
 }
 	
+
+/* ONLY applies to title */
 	a{
   
     font-size: 10pt;
         
-    color: #d5c4a1 !important;
+    color: #ebdbb2 !important;
        
-
+/* Titles when visited */
 }
 a:visited{
     color : #7c6f64 !important ;
 }
 
+/* Subtext comments tiem and hours  */
 .subtext a:link, .subtext a:visited {
-    color: #504945 !important;
+    color: #665c54 !important;
 }
 
 
+/* SUbtext of the post points  */
 .subtext {
     
     font-size: 7pt;
-    color: #504945 !important;
+    color: #5c580a !important;
 }
 
+
+/*Links on the side  */
 .comhead a:link, .subtext a:visited {
+    color: #fb4934 !important;
+}
+
+/*Hover for side links  */
+.comhead  a:hover{
     color: #98971a !important;
 }
 
-.comhead  a:hover{
-    color: #fe8019 !important;
-}
 
+/* Links color when they are visited  */
 .comhead  a:visited{
     color: #665c54 !important;
 }
 	
+	/*Background */
 	
-	
-	
-	/*TOP BAR  */
-	
-/* 	td{
+	td{
 		background-color : #1a1b1d  !important ; 
-	} */
+	}
 	
-/*Back groudn for the whole app      */
-/* 	body {
-		background-color : #17191b !important ; 
+	
+
+	
+/*background white   */
+	body {
+		background-color : #1a1b1d !important ; 
 		
-	} */
+	}
+	
+	
+	
+	
+/*Hide hacker news logo 	 */
+		img{
+		opacity: 0 !important ; 
+	}
+	
+	
+	
+	/* One Font color that was wrong */
+	font{
+    color: #7c6f64 !important;
+}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 /*MAin are where the text is right now  	 */
-/* textarea {
+textarea {
 	color : #ebdbb2 !important ; 
 	font-family:  "chivo" , "Google sans" !important ; 
 	background-color:  #282828 !important ; 
@@ -219,7 +252,25 @@ a:visited{
   
     font-size: 10pt;
     resize: both;
-} */
+}
+	
+	
+	/* Add comment button 	 */
+	
+	input {
+		background-color: #282828  !important ;
+		color : #ebdbb2 !important ; 
+		
+			font-family:"Chivo" ,  "google sans" , sans-serif!important ;
+		border: solid #b8bb26 !important ;
+		border-width: 1px !important ; 
+border-radius: 18px!important ; 
+    
+    font-size: 10pt;
+}
+	
+	
+	
 	
 	
 /* LINKS the title at the title page */
@@ -254,11 +305,11 @@ a:visited{
 	}
 	 */
 
-/*Hide the orange logo on the Top  	 */
+
 	
-/* 	img{
-		opacity: 0 !important ; 
-	} */
+	
+
+	
 	
 	
 
@@ -372,26 +423,10 @@ a:visited{
 }
 	 */
 	
-/* One Font color that was wrong 	 */
-/* 	font{
-    color: #7c6f64 !important;
-}
-	
-	 */
+
 	
 	
-/* ADD COMMENT BUTTON 	 */
-	
-/* 	input {
-		background-color: #689d6a !important ;
-		color : #ebdbb2 !important ; 
-		
-			font-family:"Chivo" ,  "google sans" , sans-serif!important ;
-border-radius: 8px!important ; 
-    
-    font-size: 10pt;
-}
-	 */
+
 	
 
 /*COMMENT AREA  	 */
@@ -401,6 +436,8 @@ border-radius: 8px!important ;
 		color : #ebdbb2 !important ;
 	}
 	 */
+	
+	
 /*Comment Reference  	 */
 /* 	span.commtext.c00{
 		color: #98971a !important 
