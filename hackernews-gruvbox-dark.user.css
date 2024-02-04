@@ -1,5 +1,4 @@
 
-
 /* ==UserStyle==
 @name           news.ycombinator.com - Jan 2024
 @namespace      github.com/openstyles/stylus
@@ -134,20 +133,20 @@
 	
 
 
-
-	/*Tittl i need for later  	 */
 	
+	a:link {
+  color: #ebdbb2 ;
+}
 	
-	.sitestr{
-		color : #cc241d !important ; 
-		
-	}
-	
-
-	.sitestr:visited{
-		color : white  !important ; 
-		
+	a:hover{
+		color : #98971a !important ; 
 	} 
+	
+	
+a:visited {
+  color: #fe8019 !important;
+}
+
 
 
 	
@@ -157,12 +156,13 @@
 
 
 	
-	
-/* TOP BAR UGLY WHITE BAR 	 */
+	/* TOP BAR UGLY WHITE BAR 	 */
 	#hnmain {
     min-width: 796px;
 		background-color: #1a1b1d !important ; 
+		
 }
+
 	
 	
 	
@@ -176,8 +176,8 @@
 	
 /*Back groudn for the whole app      */
 	body {
-		background-color : #1a1b1d !important ; 
-		color: #98971a !important ; 
+		background-color : #17191b !important ; 
+		
 	}
 	
 	
@@ -196,10 +196,11 @@ textarea {
 	
 /* LINKS the title at the title page */
 /* Top bar 	 */
-	a:link {
-    color: #ebdbb2;
+/* 	a:link {
+    color: #f2e5bc;
+	font-family: "Chivo" , sans-serif  !important; 
     text-decoration: none;
-}
+} */
 	
 
 
@@ -239,15 +240,17 @@ textarea {
 	
 /* TITLE of apges adn other elemtns 	 */
 /* 	a { 
-	color : #ebdbb2 !important ; 
+	color : #98971a !important ; 
 	} */
 	
-	
+	.comhead a:link .subtext ,  a:visited {
+    color: #665c54 !important;
+}
 	
 /*Visted links -> Hacker news  	 */
-	a:visited{ 
+/* 	a:visited{ 
 	color : #665c54 !important ; 
-	}
+	} */
 	
 
 	
@@ -385,8 +388,6 @@ border-radius: 8px!important ;
 
 	
 
-
-	
 
 	
 }
