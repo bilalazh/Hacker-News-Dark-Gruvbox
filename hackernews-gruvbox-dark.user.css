@@ -255,7 +255,8 @@ textarea {
 	.subtext a:link, .subtext{
     color: #7c6f64;
 }
-		.subtext a:link,.subtext::hover{
+/* 	Hover works now  */
+		.subtext ,.a:link,.subtext :hover{
     color: #b9541a !important;
 }
 	
