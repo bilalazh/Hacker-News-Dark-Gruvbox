@@ -183,7 +183,7 @@ a:visited{
 .subtext {
     
     font-size: 7pt;
-    color: #5c580a !important;
+    color: #665c54 !important;
 }
 
 
@@ -345,17 +345,7 @@ border-radius: 18px!important ;
 	
 	
 	
-	
-	
-	
-/* LINKS the title at the title page */
-/* Top bar 	 */
-/* 	a:link {
-    color: #f2e5bc;
-	font-family: "Chivo" , sans-serif  !important; 
-    text-decoration: none;
-} */
-	
+
 
 
 	
@@ -374,11 +364,6 @@ border-radius: 18px!important ;
 	
 	
 
-/* The points of post 	 */
-/* 	span.score{
-		color: #504945 !important ; 
-	}
-	 */
 
 
 	
@@ -392,53 +377,11 @@ border-radius: 18px!important ;
 	
 	
 	
-/* TITLE of apges adn other elemtns 	 */
-/* 	a { 
-	color : #98971a !important ; 
-	} */
-	
-/* 	.comhead a:link .subtext ,  a:visited {
-    color: #665c54 !important;
-} */
-	
-/*Visted links -> Hacker news  	 */
-/* 	a:visited{ 
-	color : #665c54 !important ; 
-	} */
-	
+
 
 	
-/* 	Hide button  */
-	.subline a[href*="hide"] {
-    /* Styles for the "hide" link */
-    color: #665c54; /* Example: Make the "hide" link red */
-}
 
-/*Hover for the  	 */
-/* 		.subline a[href*="hide"]:hover{
-  
-    color: #b8bb26; 
-}
-	 */
-	
-	
-	
-	
-/* Main style	 */
-/* line under title fade 	 */
-/* 	.subtext a:link , .subtext{
-    color: #665c54;
-} */
-	
-	
-	
-	
-/* 	Hover works now  */
-/* 		.subtext ,.a:link,.subtext :hover{
-    color: #b8bb26 !important;
-}
-	 */
-	
+
 	
 		
 
@@ -460,55 +403,6 @@ border-radius: 18px!important ;
 
 
 
-
-	
-	
-	
-/*By Front page title  	 */
-/* 	span.subline{
-		color : #665c54 !important ; 
-	} */
-
-/* 	awrrows at the side  */
-/* div.votearrow  , div.upvote{
-    width: 10px;
-    height: 10px;
-    border: 0px;
-    margin: 3px 2px 6px;
-	background-color: #1d2021 !important ; 
-} */
-	
-
-	
-	
-	
-	
-/*  ADD COMMENTS 	  */
-	
-/* input[type="text"] {
-	font-family: "google sans" , sans-serif !important ;
-	
-  background-color: #282828!important; 
-  border: 1px solid #8ec07c!important; 
-	color: #d5c4a1  !important; 
-	border-radius: 6px !important; 
-}
-	 */
-	
-
-	
-	
-
-	
-
-	
-
-
-	
-}
-	
-	
-	
 	
 	
 
