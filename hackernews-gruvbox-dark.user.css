@@ -138,9 +138,7 @@
 /* DARK MODE BLACK  */
 /* Dark mode (black) */
 
-   
-	
-	
+
 	
 	
 /* TOP BAR UGLY WHITE BAR 	 */
@@ -186,12 +184,12 @@ textarea {
     text-decoration: none;
 }
 	
-	
 
-/* Websites  links on the websites 	 */
-	.comhead a:link, .subtext a:visited {
-    color: #fb4934 !important;
-}
+
+	
+	
+	
+	
 	
 	
 	
@@ -257,7 +255,7 @@ textarea {
 }
 /* 	Hover works now  */
 		.subtext ,.a:link,.subtext :hover{
-    color: #b9541a !important;
+    color: #b8bb26 !important;
 }
 	
 	
@@ -271,9 +269,20 @@ textarea {
 	
 	
 	
+		/*Side  links   near the post titles*/
+	span.sitestr{
+		color: #fb4934 !important ;
+	}
 	
 	
+	span.sitestr:hover{
+		color: #98971a !important;
+	}
 	
+	span.sitestr:focus{
+		color: #504945 !important;
+
+	}
 	
 	
 	
@@ -337,13 +346,18 @@ input[type="text"] {
 }
 	
 	
+/* One Font color that was wrong 	 */
+	font{
+    color: #7c6f64 !important;
+}
+	
 	
 	
 	
 /* ADD COMMENT BUTTON 	 */
 	
 	input {
-		background-color: #2c573d !important ;
+		background-color: #689d6a !important ;
 		color : #ebdbb2 !important ; 
 		
 			font-family:"Chivo" ,  "google sans" , sans-serif!important ;
@@ -377,6 +391,7 @@ border-radius: 8px!important ;
 		border-radius: 12px !important ; 
 	}
 	
+
 	
 }
 	
